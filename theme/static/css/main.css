@@ -1,0 +1,61 @@
+h1 {
+    font-size: 2.4em;
+}
+
+header a {
+    color: #7eb8e2;
+}
+
+.non_underlined_link {
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+}
+
+header h1 {
+    color: white;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+#content {
+    background-color: white;
+    padding: 2em;
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #555;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}

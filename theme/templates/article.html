@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  {% if article.description %}
+    <meta name="description" content="{{article.description}}" />
+  {% endif %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" content="{{tag}}" />
+  {% endfor %}
+
+{% endblock %}
+
+{% block content %}
+<section id="content" class="body">
+    <h1>{{ article.title }}</h1>
+    <!--<blockquote><p>{{ article.description }}</p></blockquote>-->
+    {% if article.image %}
+      <img src="{{article.image }}" />
+    {% endif %}
+  {{ article.content }}
+</section>
+{% endblock %}

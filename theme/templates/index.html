@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="content">
+
+
+{% if drafts %}
+  <h2 class="articles-year">Drafts</h2>
+  <ul id="articles-list">
+{% for article in drafts %}
+    <li>
+      <a href="{{ SITEURL }}/{{ article.url }}"
+         rel="bookmark"
+         title="Permalink to {{ article.title|striptags }}">
+        <time class="published" datetime="{{ article.date.isoformat() }}">
+          {{ article.date.strftime('%b %d') }}
+        </time>
+        <span>{{ article.title }} : {{ article.description }}</span>
+      </a>
+    </li>
+{% endfor %}
+  </ul>
+{% endif %}
+
+{% for year, articles in articles_page.object_list | group_articles_by_year %}
+  <h2 class="articles-year">{{ year }}</h2>
+  <ul id="articles-list">
+{% for article in articles %}
+    <li>
+      <a href="{{ SITEURL }}/{{ article.url }}"
+         rel="bookmark"
+         title="Permalink to {{ article.title|striptags }}">
+        <time class="published" datetime="{{ article.date.isoformat() }}">
+          {{ article.date.strftime('%b %d') }}
+        </time>
+        <span>{{ article.date }} : {{ article.description }}</span>
+      </a>
+    </li>
+{% endfor %}
+  </ul>
+{% endfor %}
+
+</section>
+
+{% endblock content %}
