@@ -17,3 +17,6 @@ description
 ## SpriteCollab
 ### general
 ### new sprites and portrait
+
+## personal announcement
+*personnal announce of person working on hacking stuff that can't be put in other area*
