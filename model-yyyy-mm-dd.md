@@ -2,21 +2,20 @@ Title: news about mystery dungeon rom-hacking from dd/mm/yyyy to dd/mm/yyyy
 Date: yyyy-mm-dd
 Description: ...
 
-Did I missed anything ? feel free to [open a github issue](https://github.com/marius851000/pmd_hack_weekly/issues), contact me on discord at ``marius851000#2522``, send me a mail at ``mariusdavid@laposte.net``, or send me a message from an activitypub compatible service (mastodon) at ``marius851000@framapiaf.org``.
+Did I miss anything? Feel free to [open a github issue](https://github.com/marius851000/pmd_hack_weekly/issues), contact me on Discord at ``marius851000#2522``, send me an email at ``mariusdavid@laposte.net``, or send me a message from an ActivityPub-compatible service (Mastodon) at ``marius851000@framapiaf.org``.
 
-# explorer hacking
-## hacks
-### [name](site link)
+# Explorers Hacking
+## [name](site link)
 description
 
-## skytemple
+## SkyTemple
 - ...
 
-## skytemple-randomizer
+## SkyTemple Randomizer
 - ...
 ## SpriteCollab
 ### general
-### new sprites and portrait
+### Sprites and Portraits
 
 ## personal announcement
 *personnal announce of person working on hacking stuff that can't be put in other area*
