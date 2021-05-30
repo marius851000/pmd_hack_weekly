@@ -1,4 +1,4 @@
-Title: news about mystery dungeon rom-hacking from dd/mm/yyyy to dd/mm/yyyy
+Title: News About Mystery Dungeon ROM-Hacking from dd/mm/yyyy to dd/mm/yyyy
 Date: yyyy-mm-dd
 Description: ...
 
