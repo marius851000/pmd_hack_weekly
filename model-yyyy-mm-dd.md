@@ -13,9 +13,9 @@ description
 
 ## SkyTemple Randomizer
 - ...
-## SpriteCollab
-### general
-### Sprites and Portraits
+
+## Sprites and Portraits
+*Sprites are animated using APNG. If sprites aren't animated, check that your browser support it. Only old browser shouldn't support it.*
 
 ## personal announcement
 *personnal announce of person working on hacking stuff that can't be put in other area*
