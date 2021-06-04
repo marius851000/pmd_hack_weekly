@@ -16,7 +16,7 @@ OUTPUT_PATH = 'output/'
 PATH = 'content/'
 SITENAME = 'PMD rom-hacking "weekly"'
 SITEURL = ''
-STATIC_PATHS = ['2021/images', '2021/videos']
+STATIC_PATHS = ['2021/images', '2021/videos', 'images']
 SLUGIFY_SOURCE = 'basename'
 #PLUGIN_PATHS = ['theme/plugins']
 #PLUGINS = ['featured_image']
@@ -81,7 +81,7 @@ DEFAULT_LANG = 'en'
 # Themes
 
 THEME = 'theme'
-
+DISPLAY_PAGES_ON_MENU = True
 
 # Jinja
 

@@ -27,7 +27,7 @@ h2 {
     font-size: 1.8em;
 }
 
-#content {
+#main_content {
     background-color: white;
     padding: 2em;
 }
@@ -58,4 +58,14 @@ footer ul {
 
 footer li {
     display: inline-block;
+}
+
+#list_link {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom-style: solid;
+}
+
+#list_link .link {
+    padding-right: 50px;
 }
