@@ -72,7 +72,7 @@ TRANSLATION_FEED_ATOM = None
 RSS_FEED_SUMMARY_ONLY = False
 ATOM_FEED_SUMMARY_ONLY = False
 
-
+PLUGINS = [ 'pelican.plugins.pelimoji' ]
 # Translations
 
 DEFAULT_LANG = 'en'

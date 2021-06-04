@@ -69,3 +69,9 @@ footer li {
 #list_link .link {
     padding-right: 50px;
 }
+
+i.cemoji {
+    background-size: 2.0em;
+    width: 2em;
+    height: 2em;
+}
