@@ -72,7 +72,10 @@ TRANSLATION_FEED_ATOM = None
 RSS_FEED_SUMMARY_ONLY = False
 ATOM_FEED_SUMMARY_ONLY = False
 
-PLUGINS = [ 'pelican.plugins.pelimoji' ]
+PLUGIN_PATHS = [ "plugins" ]
+PLUGINS = [ 'emojicustom' ]
+STATIC_PATHS = STATIC_PATHS + [ "emoji" ]
+
 # Translations
 
 DEFAULT_LANG = 'en'

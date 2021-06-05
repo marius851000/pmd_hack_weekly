@@ -31,29 +31,13 @@
         "type": "github"
       }
     },
-    "glue_src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1597910615,
-        "narHash": "sha256-dVsa07eyfZ6gkZzWIKTbFSVdpqf8n+Hj9a+iGSi2H9w=",
-        "owner": "justinmayer",
-        "repo": "glue",
-        "rev": "71c504de1544f9aa87d103508f231644d2505b21",
-        "type": "github"
-      },
-      "original": {
-        "owner": "justinmayer",
-        "repo": "glue",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1622819516,
-        "narHash": "sha256-D5q/6AjtD3pHCL9ZWa56opE5m/jkM5mfOgFV0usbsRQ=",
+        "lastModified": 1622894392,
+        "narHash": "sha256-ZkLAXbrU0W2ORMKz2sAc+1LpFElUwhi0yZ3xe7ohKrs=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "9232abe0317960710224000048c45cea326f42e1",
+        "rev": "141b2b111d7aa5f8132edd0fc4f78fb2c2402ebb",
         "type": "github"
       },
       "original": {
@@ -61,29 +45,11 @@
         "type": "indirect"
       }
     },
-    "pelimoji_src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1597997845,
-        "narHash": "sha256-103HXD9FjQVvNpV2+VL3zeisIvy9ZPIxp7NdurdTouY=",
-        "owner": "pelican-plugins",
-        "repo": "pelimoji",
-        "rev": "1907ce6805f56884c1e660344a6870acca62e4f0",
-        "type": "github"
-      },
-      "original": {
-        "owner": "pelican-plugins",
-        "repo": "pelimoji",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
         "gitignore_src": "gitignore_src",
-        "glue_src": "glue_src",
-        "nixpkgs": "nixpkgs",
-        "pelimoji_src": "pelimoji_src"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
