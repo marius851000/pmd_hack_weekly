@@ -70,8 +70,10 @@ footer li {
     padding-right: 50px;
 }
 
-i.cemoji {
-    background-size: 2.0em;
-    width: 2em;
-    height: 2em;
+blockquote {
+    border-left-style: solid;
+    border-left-color: darkgray;
+    padding-left: 1em;
+    margin-left: 0px;
+    border-left-width: 0.2em;
 }
