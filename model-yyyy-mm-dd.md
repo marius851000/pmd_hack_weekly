@@ -15,4 +15,4 @@ description
 - ...
 
 ## Sprites and Portraits
-*Sprites are animated using APNG. If sprites aren't animated, check that your browser support it. Only old browser shouldn't support it.*
+*Sprites are animated PNG files. If sprites don't appear animated to you, check to make sure your browser supports animated PNG. (Though most modern browsers should.)*
