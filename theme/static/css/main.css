@@ -77,3 +77,17 @@ blockquote {
     margin-left: 0px;
     border-left-width: 0.2em;
 }
+
+
+.contentcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentinner {
+    padding-left: 1em;
+}
+
+.changetomonsterlist {
+    padding-right: 2em;
+}
