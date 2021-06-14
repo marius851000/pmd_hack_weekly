@@ -91,3 +91,7 @@ blockquote {
 .changetomonsterlist {
     padding-right: 2em;
 }
+
+iframe {
+    width: 100%;
+}
