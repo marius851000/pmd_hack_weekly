@@ -20,6 +20,42 @@
 
             pythonPackage = pkgs.python3Packages;
 
+            yamlns = pythonPackage.buildPythonPackage rec {
+              pname = "yamlns";
+              version = "0.9.1";
+
+              src = pythonPackage.fetchPypi {
+                inherit pname version;
+                sha256 = "sha256-3LDzPmxboU6cRia9Q4b92VZIYpzYTLVZNGday7KiO2g=";
+              };
+
+              propagatedBuildInputs = with pythonPackage; [
+                pyyaml
+                nose
+                rednose
+              ];
+            };
+
+            markdown-customblocks = pythonPackage.buildPythonPackage rec {
+              pname = "markdown-customblocks";
+              version = "1.1.1";
+              src = pythonPackage.fetchPypi {
+                inherit pname version;
+                sha256 = "sha256-ZKDjSTog7qbemwV/YQGSBF2lwmRuNZwBomSW6ND6SM4=";
+              };
+
+              propagatedBuildInputs = with pythonPackage; [
+                decorator
+                beautifulsoup4
+                responses
+                markdown
+                yamlns
+                pytest
+              ];
+
+              doCheck = false;
+            };
+
             site = pkgs.stdenv.mkDerivation {
               name = "this-week-in-pmd-hacking";
               src = gitignore.gitignoreSource ./.;
@@ -27,6 +63,7 @@
               buildInputs = with pkgs.python3Packages; [
                 pelican
                 markdown
+                markdown-customblocks
               ];
               buildPhase = ''
                 pelican

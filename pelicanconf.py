@@ -16,7 +16,7 @@ OUTPUT_PATH = 'output/'
 PATH = 'content/'
 SITENAME = 'PMD rom-hacking weekly'
 SITEURL = ''
-STATIC_PATHS = ['2021/images', '2021/videos', 'images', 'tileset']
+STATIC_PATHS = ['2021/images', '2021/videos', 'images', 'tileset', 'youtube_thumbnail']
 SLUGIFY_SOURCE = 'basename'
 #PLUGIN_PATHS = ['theme/plugins']
 #PLUGINS = ['featured_image']
@@ -76,6 +76,32 @@ PLUGIN_PATHS = [ "plugins" ]
 PLUGINS = [ 'emojicustom' ]
 STATIC_PATHS = STATIC_PATHS + [ "emoji" ]
 
+def youtube_gen(ctx, url):
+    video_id = url.split("?v=")[-1]
+    return """
+    <div class="hidden_video">
+        <a href="{}" target="_blank">
+            <img alt="Youtube thumbnail" src="/youtube_thumbnail/{}.png"></img>
+        </a>
+        <div class="hidden_video_content">
+            To view the video, click on the thumbnail
+        </div>
+    </div>
+    """.format(url, video_id)
+
+def title_gen(ctx, level, id, text):
+    return "<h{} id=\"{}\"><a href=\"#ToC\">⮝</a> ".format(level, id)+text+"</h{}>".format(level)
+MARKDOWN = {
+    'extensions': [ 'customblocks' ],
+    'extension_configs': {
+        'customblocks': {
+            'generators': {
+                'youtube': youtube_gen,
+                'title': title_gen
+            }
+        },
+    },
+}
 # Translations
 
 DEFAULT_LANG = 'en'

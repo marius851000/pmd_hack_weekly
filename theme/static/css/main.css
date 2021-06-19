@@ -95,3 +95,26 @@ blockquote {
 iframe {
     width: 100%;
 }
+
+.hidden_video {
+    border-color: rgb(81, 88, 91);
+    border-style: solid;
+    text-align: center;
+    padding-bottom: 5px;
+    border-width: 1px;
+}
+
+.blue_badge {
+    background-color: rgb(0, 88, 129);
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 80%;
+    border-color: currentColor;
+    color: white;
+    margin: 2px;
+}
+
+.blue_badge a {
+    color: white;
+    text-decoration: none;
+}
