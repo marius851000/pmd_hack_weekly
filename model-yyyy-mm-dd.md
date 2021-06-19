@@ -34,26 +34,10 @@ Animated sprites in this section are animated PNG files. If animated sprites app
 
 <h3 id="SkyTemple-Fixes"><a href="#ToC">⮝</a>  Fixes</h3>
 
-- [Committed by Parakoopa](https://github.com/SkyTemple/skytemple-dtef/commit/064930191e674288d684792095dc3567846ec0c1): Fixed animation importing.
-- [Committed by Parakoopa](https://github.com/SkyTemple/skytemple/commit/9f5099d0b9f54283a700557d42bb505ba4b0b3bb): Rest rooms will now render correctly in the editor.
-
-
 <h3 id="SkyTemple-Changes"><a href="#ToC">⮝</a>  Changes</h3>
-
-- [Committed by Parakoopa](https://github.com/SkyTemple/skytemple-ssb-debugger/commit/5f36b3701610f0e42609dda37055d29e667b04ba): Removed the debug assistant window (which displayed when the debugger started for the first time).
-- [Committed by Parakoopa](https://github.com/SkyTemple/skytemple-ssb-debugger/commit/1bfe8c6df015faab65e46819dc8f8fa57586217d): Improvemed the handler for adding events to scripts.
-
 
 
 <h3 id="SkyTemple-Screenshots"><a href="#ToC">⮝</a>  Screenshots</h3>
-
-<div align="center">
-<i>The new trap and item sprite import menu.</i><br><img src="/images/16-traps.png">
-<br><i>The Miscellaneous Settings menu, showcasing the new editable values.</i><br><img src="/images/16-misc.png">
-<br><i>The Dungeon Music menu, showcasing the ability to create four-track 'playlists' for random music within dungeons.</i><br><img src="/images/16-musics.png">
-</div>
-
-The GTK theme used in these screenshots is "[Sweet-Dark](https://github.com/EliverLara/Sweet)".
 
 <h2 id="EditorNotes"><a href="#ToC">⮝</a>  Editor's Notes</h2>
 
@@ -65,7 +49,7 @@ Did I miss anything? Feel free to [open a github issue](https://github.com/mariu
 
 Written and initially formatted by ``marius851000#2522``.
 
-TODO: remember to remove if she can't proofread
+TODO: remember to remove if can't proofread
 Proofread and edited by ``Aviivix#2695``.
 
 ---
