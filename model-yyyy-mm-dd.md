@@ -14,32 +14,32 @@ TODO: announcment if necessary
 
 TODO: content of the TOC
 
-<h1 id="HackNews"><a href="#ToC">⮝</a>  Explorers ROM Hacking News</h1>
+::: title 1 HackNews "Explorers ROM Hacking News"
 
-<h3 id="HackNews-A"><a href="#ToC">⮝</a>  TODO: Hack update </h3>
+::: title 2 HackNews-1 TODO
 
-<h1 id="NewAssets"><a href="#ToC">⮝</a>  New Community Assets</h1>
+::: title 2 NewAssets "New Community Assets"
 
 Animated sprites in this section are animated PNG files. If animated sprites appear to be static images, make sure that your browser supports PNG animation. (Most modern browsers should display them just fine, though.)
 
-<h2 id="NewAssets-Pokemon"><a href="#ToC">⮝</a>  Pokemon</h2>
+::: title 3 NewAssets-Pokemon Pokemon
 
-<h2 id="NewAssets-Graphics"><a href="#ToC">⮝</a>  Other Graphics</h2>
+::: title 3 NewAssets-Graphics "Other Graphics"
 
-<h1 id="SkyTemple"><a href="#ToC">⮝</a>  SkyTemple Changes</h1>
+::: title 2 SkyTemple "SkyTemple Changes"
 
-<h3 id="SkyTemple-NewFeatures"><a href="#ToC">⮝</a>  New Features</h3>
+::: title 3 SkyTemple-NewFeatures "New Features"
 
 - [Committed by TODO](...): description
 
-<h3 id="SkyTemple-Fixes"><a href="#ToC">⮝</a>  Fixes</h3>
+::: title 3 SkyTemple-Fixes Fixes
 
-<h3 id="SkyTemple-Changes"><a href="#ToC">⮝</a>  Changes</h3>
+::: title 3 SkyTemple-Changes Changes
 
 
-<h3 id="SkyTemple-Screenshots"><a href="#ToC">⮝</a>  Screenshots</h3>
+::: title 3 SkyTemple-Screenshots Screenshots
 
-<h2 id="EditorNotes"><a href="#ToC">⮝</a>  Editor's Notes</h2>
+::: title 1 EditorNotes "Editor's Notes"
 
 TODO: editor note if appropriate
 
