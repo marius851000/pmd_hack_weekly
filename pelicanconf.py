@@ -16,7 +16,7 @@ OUTPUT_PATH = 'output/'
 PATH = 'content/'
 SITENAME = 'PMD rom-hacking weekly'
 SITEURL = ''
-STATIC_PATHS = ['2021/images', '2021/videos', 'images', 'tileset', 'youtube_thumbnail']
+STATIC_PATHS = ['2021/images', '2021/videos', 'images', 'tileset', 'youtube_thumbnail', 'twitter_thumbnail']
 SLUGIFY_SOURCE = 'basename'
 #PLUGIN_PATHS = ['theme/plugins']
 #PLUGINS = ['featured_image']
@@ -89,14 +89,30 @@ def youtube_gen(ctx, url):
     </div>
     """.format(url, video_id)
 
+def twitter_vid_gen(ctx, url):
+    video_id = url.split("/")[-1]
+    return """
+    <div class="hidden_video">
+        <a href="{}" target="_blank">
+            <img alt="Twitter thumbnail" src="/twitter_thumbnail/{}.png"></img>
+        </a>
+        <div class="hidden_video_content">
+            To view the video, click on the thumbnail
+        </div>
+    </div>
+    """.format(url, video_id)
+
+
 def title_gen(ctx, level, id, text):
     return "<h{} id=\"{}\"><a href=\"#ToC\">⮝</a> ".format(level, id)+text+"</h{}>".format(level)
+
 MARKDOWN = {
     'extensions': [ 'customblocks' ],
     'extension_configs': {
         'customblocks': {
             'generators': {
                 'youtube': youtube_gen,
+                'twitter_vid': twitter_vid_gen,
                 'title': title_gen
             }
         },

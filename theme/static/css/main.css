@@ -118,3 +118,10 @@ iframe {
     color: white;
     text-decoration: none;
 }
+
+img {
+    min-width: 2cm;
+    
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}

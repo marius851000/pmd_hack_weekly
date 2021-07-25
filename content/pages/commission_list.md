@@ -27,13 +27,14 @@ This page contain a list of different commission by various author I have collec
 ![](../2021/images/11-smalusion-commision.gif)
 
 # DunkingDucks#9030 (aka DonkinDo)
-> Well, i do spriting, i'm more experienced in FE and PMD but if need something else, can help (with reduced price of course, because of the inexperience)
-> 
-> ![](../2021/images/11-donkindo-comm-1.png)
-> 
-> ![](../2021/images/11-donkindo-comm-2.png)
-> 
-> ![](../2021/images/11-donkindo-comm-3.png)
+*[https://twitter.com/DonkinDo/status/1415560034147241986](https://twitter.com/DonkinDo/status/1415560034147241986)*
+
+> ixelart commission! Game insertion focusing, good at reproducing styles, those are my more experienced ones, still able of other things. If you have money to spend on this, of course. #Pokemon #pixelart #commissionsopen #FireEmblem #pokemonmysterydungeon
+
+<video autoplay loop>
+    <source src="../images/donkin-commission.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 # Wyvernagon#8227 (aka Triss/Wyverna)
 PMD Body Sprites 35$/ PMD Portrait Sprites $30

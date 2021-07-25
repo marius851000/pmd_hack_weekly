@@ -18,7 +18,7 @@ def init(pelican_object):
     # compile pattern to global for speed, given how massive it'll (potentially) be
     pelimoji_prog = re.compile(pattern)
     # And the pattern to replace it with!
-    pelimoji_replace = r'<i><img alt=":\g<emoji>:" src="/emoji/\g<emoji>.png" style="width:2em; height:2em"/></i>'
+    pelimoji_replace = r'<i><img alt=":\g<emoji>:" src="/emoji/\g<emoji>.png" class="no-scale" style="width:2em; height:2em; min-width:2em"/></i>'
     #pelimoji_replace = r'<i class="cemoji cemoji-\g<emoji>" title=":\g<emoji>:"><span>:\g<emoji>:</span></i>'
 
 
