@@ -43,3 +43,10 @@ PMD Body Sprites 35$/ PMD Portrait Sprites $30
 *Editor's note: I was unable to find a commision sheet, so instead here you have one of her spritesheet*
 
 ![](../images/emuffin-comm-1.png)
+
+# Moizing
+
+*posted on Discord*
+> Oh, I am also taking coms of these, but only for the default portrait for 15$ on my Ko-Fi if anyone is interested [https://ko-fi.com/moizing](https://ko-fi.com/moizing)
+
+![](../2021/images/23-comm-moizing.png)
