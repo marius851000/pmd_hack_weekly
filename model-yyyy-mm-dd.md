@@ -47,9 +47,6 @@ Did I miss anything? Feel free to [open a github issue](https://github.com/mariu
 
 **Newsletter Credits**
 
-Written and initially formatted by ``marius851000#2522``.
-
-TODO: remember to remove if can't proofread
-Proofread and edited by ``Aviivix#2695``.
+Written and formatted by ``marius851000#2522``.
 
 ---
