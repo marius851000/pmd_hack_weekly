@@ -28,7 +28,7 @@ else:
                     if "\"" in line:
                         text = line.split("\"")[1].split("\"")[0]
                     else:
-                        text = splited[4]
+                        text = splited[4].split("\n")[0]
 
             if id != None:
                 result += ("    " * (level-1)) + "- [**" + text + "**](#" + id + ")\n"
