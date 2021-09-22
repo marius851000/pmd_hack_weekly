@@ -58,8 +58,9 @@
 
             site = pkgs.stdenv.mkDerivation {
               name = "this-week-in-pmd-hacking";
-              src = gitignore.gitignoreSource ./.;
-
+              #disable, as it crash the raspi
+              #src = gitignore.gitignoreSource ./.;
+              src = ./.;
               buildInputs = with pkgs.python3Packages; [
                 pelican
                 markdown

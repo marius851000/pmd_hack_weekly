@@ -81,7 +81,7 @@ def youtube_gen(ctx, url):
     return """
     <div class="hidden_video">
         <a href="{}" target="_blank">
-            <img alt="Youtube thumbnail" src="/youtube_thumbnail/{}.png"></img>
+            <img alt="Youtube thumbnail" src="../youtube_thumbnail/{}.png"></img>
         </a>
         <div class="hidden_video_content">
             To view the video, click on the thumbnail
@@ -94,7 +94,7 @@ def twitter_vid_gen(ctx, url):
     return """
     <div class="hidden_video">
         <a href="{}" target="_blank">
-            <img alt="Twitter thumbnail" src="/twitter_thumbnail/{}.png"></img>
+            <img alt="Twitter thumbnail" src="../twitter_thumbnail/{}.png"></img>
         </a>
         <div class="hidden_video_content">
             To view the video, click on the thumbnail
