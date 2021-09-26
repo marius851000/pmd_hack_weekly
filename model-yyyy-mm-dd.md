@@ -26,7 +26,7 @@ Animated sprites in this section are animated PNG files. If animated sprites app
 
 ::: title 3 NewAssets-Graphics "Other Graphics"
 
-::: title 2 SkyTemple "SkyTemple Changes"
+::: title 2 SkyTemple "SkyTemple"
 
 ::: title 3 SkyTemple-NewFeatures "New Features"
 
@@ -38,6 +38,10 @@ Animated sprites in this section are animated PNG files. If animated sprites app
 
 
 ::: title 3 SkyTemple-Screenshots Screenshots
+
+::: title 1 Rescue "Rescue Team Hacking News"
+
+::: title 2 Rescue-Decomp "RRT Decompilation progress"
 
 ::: title 1 EditorNotes "Editor's Notes"
 
