@@ -47,7 +47,7 @@ Animated sprites in this section are animated PNG files. If animated sprites app
 
 TODO: editor note if appropriate
 
-Did I miss anything? Feel free to [open a github issue](https://github.com/marius851000/pmd_hack_weekly/issues), contact me on Discord at ``marius851000#2522``, send me an email at ``mariusdavid@laposte.net``, or send me a message from an ActivityPub-compatible service (Mastodon) at ``marius851000@framapiaf.org``.
+Did I miss anything? Feel free to [open a github issue](https://github.com/marius851000/pmd_hack_weekly/issues), contact me on Discord at ``marius851000#2522``, send me an email at ``mariusdavid@laposte.net``, on reddit to ``u/marius851000`` or send me a message from an ActivityPub-compatible service (Mastodon) at ``marius851000@framapiaf.org``.
 
 **Newsletter Credits**
 
