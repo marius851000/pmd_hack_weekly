@@ -20,9 +20,10 @@ TODO: content of the TOC
 
 ::: title 2 NewAssets "New Community Assets"
 
-Animated sprites in this section are animated PNG files. If animated sprites appear to be static images, make sure that your browser supports PNG animation. (Most modern browsers should display them just fine, though.)
 
 ::: title 3 NewAssets-Pokemon Pokemon
+
+Animated sprites in this section are animated PNG files. If animated sprites appear to be static images, make sure that your browser supports PNG animation. (Most modern browsers should display them just fine, though.)
 
 ::: title 3 NewAssets-Graphics "Other Graphics"
 
@@ -38,6 +39,10 @@ Animated sprites in this section are animated PNG files. If animated sprites app
 
 
 ::: title 3 SkyTemple-Screenshots Screenshots
+
+::: title 1 DX "Rescue Team DX Hacking News"
+
+::: title 2 "DreamNexus"
 
 ::: title 1 Rescue "Rescue Team Hacking News"
 

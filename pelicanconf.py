@@ -77,7 +77,7 @@ PLUGINS = [ 'emojicustom' ]
 STATIC_PATHS = STATIC_PATHS + [ "emoji" ]
 
 def youtube_gen(ctx, url):
-    video_id = url.split("?v=")[-1]
+    video_id = url.split("v=")[-1]
     return """
     <div class="hidden_video">
         <a href="{}" target="_blank">
