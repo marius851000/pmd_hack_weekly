@@ -121,7 +121,9 @@ iframe {
 
 img {
     min-width: 2cm;
-    
+}
+
+.monstergeneral img {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
 }
